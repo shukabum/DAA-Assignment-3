@@ -1,5 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <map>
 #include "solvers.h"
+#include <climits>
 using namespace std;
 
 int dfs(unordered_map<int, Node> &tree, int node, int par, int k, int k_max, map<pair<int, int>, int> &dp)

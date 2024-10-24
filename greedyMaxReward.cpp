@@ -1,7 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 #include "solvers.h"
 using namespace std;
-
+#include<climits>
 int greedyDFS(unordered_map<int, Node> &tree, int node, int par, int k, int k_max)
 {
     int max_child = -1;

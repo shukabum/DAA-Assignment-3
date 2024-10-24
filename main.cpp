@@ -1,12 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <algorithm>
 #include "solvers.h"
+#include <vector>
+#include <unordered_map>
 using namespace std;
 
 string filename = "sample_input_1.txt";
-int k = 2;
+int k = 3;
 
 vector<int> split(const string &s, char delimiter)
 {

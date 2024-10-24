@@ -1,5 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 #include "solvers.h"
+#include <climits>
 using namespace std;
 
 int findLevels(unordered_map<int, Node> &tree, unordered_map<int, int> &level, int node, int par)

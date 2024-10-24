@@ -1,0 +1,6 @@
+greedyPathCount.o
+greedyMaxReward.o
+optimalMaxReward.o
+main.o
+# makefile
+climbing_boulder.exe
